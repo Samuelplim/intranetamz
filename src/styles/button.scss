@@ -1,0 +1,15 @@
+#component-button {
+  border: 1px solid #5681c2;
+  border-radius: 8px;
+  width: 240px;
+  color: #f8fbff;
+  background: #5681c2;
+  cursor: pointer;
+  &:not(:disabled):hover {
+    filter: brightness(0.9);
+  }
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}

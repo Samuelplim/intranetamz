@@ -1,0 +1,17 @@
+.divider {
+  height: 2px;
+  background: #5681c2;
+}
+.orderView {
+  display: flex;
+  flex-direction: row;
+  div {
+    margin-right: 20px;
+  }
+  color: #111;
+  text-decoration: none;
+  & + .orderView{
+    margin-top: 20px;
+  }
+}
+

@@ -1,0 +1,22 @@
+#page-auth {
+  width: 502px;
+  height: 520px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7e3ef;
+  border-radius: 16px;
+  p {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    border: 1px solid #fff;
+    border-radius: 8px;
+  }
+  button {
+    margin-top: 16px;
+  }
+}

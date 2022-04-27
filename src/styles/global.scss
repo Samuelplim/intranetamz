@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8fbff;
+  color: #292d30;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 24px "Open Sans", sans-serif;
+}
